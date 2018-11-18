@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: order
+  jpa:
+    show-sql: true
+# mysql �����ݿ�����
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8085
+env:
+  testGit
