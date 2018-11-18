@@ -3,7 +3,7 @@ spring:
     name: order
   jpa:
     show-sql: true
-# mysql �����ݿ�����
+# mysql 
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
     username: root
@@ -12,4 +12,4 @@ spring:
 server:
   port: 8085
 env:
-  testGit
+  testGitabcd
