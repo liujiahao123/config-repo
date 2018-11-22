@@ -8,6 +8,17 @@ spring:
     username: guest
     password: guest
     port: 5672
+  redis:
+      host: 127.0.0.1
+      database: 0
+      port: 6379
+      password: 666666
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+      timeout: 5000
 
 # mysql 
   datasource:
