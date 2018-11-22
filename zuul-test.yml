@@ -1,0 +1,10 @@
+zuul:
+  routes:
+     myProduct:
+        path: /myProduct/**
+        serviceId: product
+        sensitiveHeaders: 
+  ignored-patterns: /**/requestfun
+management:
+  security:
+    enabled: false
