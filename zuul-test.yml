@@ -1,8 +1,4 @@
 zuul:
-  routes:
-     myProduct:
-        path: /myProduct/**
-        serviceId: product
   #全部服务都可以传递cookie
   sensitiveHeaders:
 management:
