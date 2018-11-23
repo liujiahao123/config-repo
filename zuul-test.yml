@@ -3,7 +3,7 @@ zuul:
      myProduct:
         path: /myProduct/**
         serviceId: product
-        sensitiveHeaders: 
+        sensitiveHeaders: Cookie,Set-Cookie
 management:
   security:
     enabled: false
